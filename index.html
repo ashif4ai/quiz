@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Character Quiz Game</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Prevent indexing of this page -->
+    <meta name="robots" content="noindex">
+    <!-- Prevent following links on this page -->
+    <meta name="robots" content="nofollow">
+
+</head>
+<body>
+    <div class="container mt-5" id="main">
+        <div id="welcome-section" class="text-center p-5 rounded" style="background-color: #f8f9fa;">
+            <h1 class="display-4 text-primary">Welcome to the Anime Character Quiz Game!</h1>
+            <p class="lead">Please enter your name to begin.</p>
+            <div class="form-group">
+                <input type="text" value="Ashif" class="form-control form-control-lg" id="username" placeholder="Enter your name" autocomplete="off" required>
+            </div>
+            <button class="btn btn-primary btn-lg" id="start-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-section" style="display: none;" class="text-center p-5 rounded" style="background-color: #f8f9fa;">
+            <div id="quiz-container" class="row">
+                <div class="col-md-6">
+                    <img id="quiz-image" src="" alt="Character Image" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <!-- <p class="lead aLead font-weight-bold">Who is this character?</p> -->
+                    <h1 class="display-4 text-primary dLead">Who is this character?</h1>
+                    <form id="quiz-form" class="mb-3">
+                        <!-- Options will be dynamically added here -->
+                    </form>
+                    <button class="btn btn-primary align-self-end" id="next-btn">Next</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="result-section" style="display: none;" class="text-center mt-5 p-5 rounded" style="background-color: #f8f9fa;">
+            <!-- Quiz result will be displayed here -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

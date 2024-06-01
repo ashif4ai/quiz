@@ -1,0 +1,53 @@
+[
+  {
+      "image": "img/Ashif.jpg",
+      "name": "Ashif",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Bushra.jpg",
+      "name": "Bushra",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Chandan.jpg",
+      "name": "Chandan",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Diganta.jpg",
+      "name": "Diganta",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Divy.jpg",
+      "name": "Divy",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Jasmeet.jpg",
+      "name": "Jasmeet",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Lekha.jpg",
+      "name": "Lekha",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Madhushree.jpg",
+      "name": "Madhushree",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Nita.jpg",
+      "name": "Nita",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  },
+  {
+      "image": "img/Vineeth.jpg",
+      "name": "Vineeth",
+      "options": ["Character 1", "Character 2", "Character 3", "Character 4"]
+  }
+
+]
